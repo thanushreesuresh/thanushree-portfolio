@@ -1,0 +1,26 @@
+.case-study { min-height: 100vh; background: var(--ivory); padding: 35px 5vw 8vw; position: relative; overflow: hidden; }
+.case-study.warm { --case: var(--terracotta); }
+.case-study.paper { --case: #d6c8ad; }
+.case-study.industrial { --case: var(--charcoal); }
+.case-study.evidence, .case-study.play { --case: var(--mustard); }
+.case-study.fresh { --case: var(--sage); }
+.case-study.community { --case: var(--terracotta); }
+.case-header { display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); padding-bottom: 16px; font-size: .6rem; letter-spacing: .13em; }
+.case-body { margin-top: 12vh; border-left: 12px solid var(--case); padding-left: 4vw; position: relative; }
+.case-kicker { font-size: .6rem; letter-spacing: .15em; color: var(--terracotta); }
+.case-body h1 { font-size: clamp(4rem, 13vw, 13rem); line-height: .75; letter-spacing: -.11em; margin: 5vw 0 3vw; max-width: 1100px; }
+.case-body h2 { font-family: var(--font-serif); font-weight: 400; font-size: clamp(1.5rem, 4vw, 4rem); line-height: 1; max-width: 800px; }
+.case-grid { display: grid; grid-template-columns: 1.4fr .7fr; gap: 10vw; margin-top: 9vw; border-top: 1px solid var(--line); padding-top: 30px; }
+.case-grid > div { font-family: var(--font-serif); font-size: clamp(1.2rem, 2vw, 1.8rem); line-height: 1.35; }
+.case-grid aside { display: flex; flex-direction: column; gap: 12px; }
+.case-grid aside span { font-size: .55rem; letter-spacing: .13em; color: var(--terracotta); margin-top: 20px; }
+.case-grid aside strong { font-size: .8rem; font-weight: 500; }
+.case-stamp { position: absolute; right: 3vw; top: 25vh; width: 100px; height: 100px; border: 2px solid var(--terracotta); border-radius: 50%; display: grid; place-content: center; text-align: center; font-size: .65rem; letter-spacing: .12em; color: var(--terracotta); transform: rotate(12deg); }
+@media (max-width: 700px) {
+  .case-study { padding: 25px 6vw 15vw; }
+  .case-header span { display: none; }
+  .case-body { margin-top: 14vh; border-left-width: 6px; }
+  .case-body h1 { font-size: 17vw; margin: 15vw 0 8vw; }
+  .case-grid { display: block; margin-top: 20vw; }
+  .case-stamp { width: 70px; height: 70px; top: 8vh; font-size: .5rem; }
+}

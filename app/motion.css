@@ -1,0 +1,85 @@
+/* Section-specific motion keeps the workshop feeling assembled by hand. */
+.section-motion:before { content: ""; position: absolute; pointer-events: none; }
+.hero-kicker { animation: hero-drop .8s .2s both; }
+.hero h1 span { animation: hero-word 1s cubic-bezier(.2,.7,.2,1) both; }
+.hero h1 span:nth-child(2) { animation-delay: .12s; }
+.hero-lower { animation: hero-rise 1s .45s both; }
+.scroll-note { animation: scroll-pulse 2.2s 1.4s ease-in-out infinite; }
+
+.about.section-motion:before { width: 1px; height: 0; left: 10%; top: 22%; background: var(--terracotta); transition: height 1.2s ease .2s; }
+.about.section-visible:before { height: 55%; }
+.about-rule { width: 0; height: 1px; background: var(--terracotta); position: absolute; top: 55%; left: 5%; transition: width 1s ease .4s; }
+.about.section-visible .about-rule { width: 30%; }
+.about-copy p { transition: color .3s; }
+.about-copy:hover p { color: var(--terracotta); }
+
+.playground:before { inset: 15% 10%; border: 1px solid rgba(227,184,75,.18); transform: rotate(-3deg) scale(.92); transition: transform 1.2s ease, opacity 1.2s; opacity: 0; }
+.playground.section-visible:before { transform: rotate(1deg) scale(1); opacity: 1; }
+.play-board p { animation: tag-drift 5s ease-in-out infinite alternate; }
+.play-board p:nth-child(2) { animation-delay: -.8s; }
+.play-board p:nth-child(3) { animation-delay: -1.4s; }
+.play-board p:nth-child(4) { animation-delay: -2.1s; }
+.play-board p:nth-child(5) { animation-delay: -2.8s; }
+.play-board p:nth-child(6) { animation-delay: -3.4s; }
+
+.toolbox:before { width: 12px; height: 12px; border: 1px solid var(--terracotta); right: 10%; top: 18%; transform: rotate(45deg); transition: transform 1s ease; }
+.toolbox.section-visible:before { transform: rotate(405deg); }
+.tool-row { transition: padding-left .35s ease, background-color .35s ease; }
+.tool-row:hover { padding-left: 18px; background: rgba(216,92,63,.08); }
+.tool-row:nth-child(1) { transition-delay: .04s; }.tool-row:nth-child(2) { transition-delay: .08s; }.tool-row:nth-child(3) { transition-delay: .12s; }.tool-row:nth-child(4) { transition-delay: .16s; }.tool-row:nth-child(5) { transition-delay: .2s; }.tool-row:nth-child(6) { transition-delay: .24s; }
+
+.work:before { content: "WORK / IN MOTION"; position: absolute; right: 7%; top: 16%; writing-mode: vertical-rl; font-size: .55rem; letter-spacing: .16em; color: var(--terracotta); animation: vertical-sway 4s ease-in-out infinite; }
+.project-piece { position: relative; overflow: hidden; }
+.project-piece:after { content: ""; position: absolute; inset: 0; background: rgba(245,240,230,.12); transform: translateX(-105%); transition: transform .65s cubic-bezier(.2,.7,.2,1); }
+.project-piece:hover:after { transform: translateX(105%); }
+.project-piece h3, .project-piece h4, .project-piece p, .project-piece i { position: relative; z-index: 1; }
+.additional-work a b { transition: transform .3s ease; }.additional-work a:hover b { transform: translate(5px,-5px); }
+
+.wins:before { width: 2px; height: 100px; left: 7%; top: 8%; background: var(--mustard); transform-origin: top; transform: scaleY(0); transition: transform .8s ease; }
+.wins.section-visible:before { transform: scaleY(1); }
+.win-note { transition: transform .35s ease, box-shadow .35s ease; }
+.win-note:hover { transform: rotate(0deg) translateY(-8px) !important; box-shadow: 10px 12px 0 rgba(25,24,23,.16); }
+
+.learning-log { position: relative; }
+.learning-log:before { content: ""; position: absolute; left: 14px; top: 0; bottom: 0; width: 1px; background: var(--terracotta); transform: scaleY(0); transform-origin: top; transition: transform 1.2s ease; }
+.internships.section-visible .learning-log:before { transform: scaleY(1); }
+.learning-log article { position: relative; transition: padding-left .35s ease; }
+.learning-log article:hover { padding-left: 18px; }
+
+.blueprint:before { content: "BLUEPRINT / 05"; position: absolute; right: 8%; top: 18%; font-size: .55rem; letter-spacing: .15em; color: var(--terracotta); transform: rotate(90deg); }
+.resume-sheet { transition: transform .45s ease, box-shadow .45s ease; }
+.resume-sheet:hover { transform: rotate(0deg) translateY(-10px); box-shadow: 16px 18px 0 var(--sage); }
+.cert-drawer { transition: transform .45s ease, box-shadow .45s ease; }
+.cert-drawer:hover { transform: rotate(0deg) translateY(-8px); box-shadow: 12px 14px 0 rgba(25,24,23,.14); }
+
+.contact:before { inset: 14% 5%; border-top: 1px solid rgba(227,184,75,.3); border-bottom: 1px solid rgba(227,184,75,.3); transform: scaleX(0); transition: transform 1.3s ease; }
+.contact.section-visible:before { transform: scaleX(1); }
+.contact h2 { transition: color .4s ease; }.contact h2:hover { color: var(--mustard); }
+.contact-row a span { display: inline-block; transition: transform .3s ease; }.contact-row a:hover span { transform: translate(7px,-7px); }
+
+@keyframes hero-drop { from { opacity: 0; transform: translateY(-18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes hero-word { from { opacity: 0; transform: translateX(-5vw); } to { opacity: 1; transform: translateX(0); } }
+@keyframes hero-rise { from { opacity: 0; transform: translateY(25px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes scroll-pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+@keyframes tag-drift { from { transform: translateY(-3px) rotate(-3deg); } to { transform: translateY(5px) rotate(2deg); } }
+@keyframes vertical-sway { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(10px) rotate(3deg); } }
+
+.case-intro { animation: case-enter .9s cubic-bezier(.2,.7,.2,1) both; }
+.case-grid { animation: case-enter .9s .2s cubic-bezier(.2,.7,.2,1) both; }
+.case-closing { animation: case-enter .9s .4s cubic-bezier(.2,.7,.2,1) both; }
+.case-body:after { content: ""; position: absolute; left: -13px; top: 0; width: 12px; height: 130px; background: var(--case); animation: case-rule 1.4s ease both; }
+@keyframes case-enter { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes case-rule { from { transform: scaleY(0); transform-origin: top; } to { transform: scaleY(1); transform-origin: top; } }
+
+@media (max-width: 700px) {
+  .about.section-motion:before { left: 6%; }
+  .playground:before { inset: 12% 6%; }
+  .work:before { top: 10%; }
+  .blueprint:before { right: 3%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-kicker, .hero h1 span, .hero-lower, .scroll-note, .play-board p, .work:before { animation: none; }
+  .section-motion:before, .about-rule, .wins:before, .learning-log:before, .contact:before { transition: none; transform: none; opacity: 1; }
+  .project-piece:after { display: none; }
+  .case-intro, .case-grid, .case-closing, .case-body:after { animation: none; }
+}

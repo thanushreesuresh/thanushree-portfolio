@@ -1,0 +1,290 @@
+- generic [active] [ref=e1]:
+  - generic "Entering Thanushree's digital workshop":
+    - generic:
+      - strong: THANUSHREE'S
+      - generic: DIGITAL WORKSHOP
+    - generic:
+      - generic:
+        - generic:
+          - generic: PHOTO01
+          - generic: TS
+      - paragraph: CS Engineering Student (3rd year)
+      - generic: WORKSHOP ID / 2024-2028
+  - banner [ref=e2]:
+    - link "TS DIGITAL WORKSHOP" [ref=e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e4]: TS
+      - generic [ref=e5]: DIGITALWORKSHOP
+    - navigation "Primary navigation" [ref=e6]:
+      - link "01About" [ref=e7] [cursor=pointer]:
+        - /url: "#about"
+      - link "02Work" [ref=e8] [cursor=pointer]:
+        - /url: "#work"
+      - link "03Playground" [ref=e9] [cursor=pointer]:
+        - /url: "#playground"
+      - link "04Toolbox" [ref=e10] [cursor=pointer]:
+        - /url: "#toolbox"
+      - link "05Certifications" [ref=e11] [cursor=pointer]:
+        - /url: "#certifications"
+      - link "06Blueprint" [ref=e12] [cursor=pointer]:
+        - /url: "#blueprint"
+      - link "07Contact" [ref=e13] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=e14]:
+    - region [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: EST. 2006
+        - generic [ref=e18]: THRISSUR, KERALA, INDIA
+      - heading "THANUSHREE SURESH*" [level=1] [ref=e19]:
+        - generic [ref=e20]: THANUSHREE
+        - generic [ref=e21]: SURESH*
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e25]:
+            - img "Thanushree Suresh avatar" [ref=e26]
+            - generic: PHOTO01
+            - generic: TS
+          - paragraph [ref=e27]: CS Engineering Student (3rd year)
+          - text: WORKSHOP ID / 2024-2028
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: A digital space for building ideas, experimenting with technology, and solving real-world problems.
+          - generic [ref=e30]:
+            - generic [ref=e31]: DATA
+            - generic [ref=e32]: CODE
+            - generic [ref=e33]: AI
+            - generic [ref=e34]: APPLICATIONS
+            - generic [ref=e35]: PROBLEM SOLVING
+      - link "SCROLL TO ENTER ↓" [ref=e36] [cursor=pointer]:
+        - /url: "#about"
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]: 01 / 06
+        - paragraph [ref=e40]: THE PERSON BEHIND THE WORKBENCH
+        - heading [level=2] [ref=e41]:
+          - text: Ideas begin with
+          - emphasis [ref=e42]: curiosity.
+      - generic [ref=e43]:
+        - generic [ref=e44]: PROFESSIONAL SUMMARY ↘
+        - paragraph [ref=e45]: Motivated Computer Science Engineering student with hands-on experience in AI integration, Java, Python, SQL,web development and Data Analytics. Passionate about building user-focused applications and solving real-world problems. Seeking internship opportunities.
+      - complementary [ref=e46]:
+        - text: EDUCATION / BLUEPRINT 01
+        - heading "B.Tech in Computer Science Engineering" [level=3] [ref=e47]
+        - paragraph [ref=e48]: Sahrdaya College of Engineering and Technology
+        - text: 2024-2028
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]: 03 / 06
+        - paragraph [ref=e52]: THE PLAYGROUND
+        - heading [level=2] [ref=e53]:
+          - text: Where ideas get
+          - emphasis [ref=e54]: tested.
+      - generic [ref=e55]:
+        - paragraph [ref=e56]: AI Agent Architect
+        - paragraph [ref=e57]: Multimodal AI
+        - paragraph [ref=e58]: Flutter
+        - paragraph [ref=e59]: Data Analytics
+        - paragraph [ref=e60]: Hackathons
+        - paragraph [ref=e61]: Accessibility-focused design
+        - generic [ref=e62]: actual tools + arenasfrom the workshop
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]: 04 / 06
+        - paragraph [ref=e67]: TOOLS ON MY DESK
+        - heading [level=2] [ref=e68]:
+          - text: The
+          - emphasis [ref=e69]: toolbox.
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]: "01"
+          - heading "Programming Languages" [level=3] [ref=e73]
+          - paragraph [ref=e74]: Python, Java, C, SQL
+        - generic [ref=e75]:
+          - generic [ref=e76]: "02"
+          - heading "Mobile Development" [level=3] [ref=e77]
+          - paragraph [ref=e78]: Flutter
+        - generic [ref=e79]:
+          - generic [ref=e80]: "03"
+          - heading "Web Development" [level=3] [ref=e81]
+          - paragraph [ref=e82]: HTML, CSS, JavaScript
+        - generic [ref=e83]:
+          - generic [ref=e84]: "04"
+          - heading "Database & Backend" [level=3] [ref=e85]
+          - paragraph [ref=e86]: PostgreSQL, Supabase
+        - generic [ref=e87]:
+          - generic [ref=e88]: "05"
+          - heading "UI/UX & Data Tools" [level=3] [ref=e89]
+          - paragraph [ref=e90]: Figma, Canva, Excel, Google Sheets dashboards, data cleaning
+        - generic [ref=e91]:
+          - generic [ref=e92]: "06"
+          - heading "Concepts & Platforms" [level=3] [ref=e93]
+          - paragraph [ref=e94]: OOP, APIs, Database Management, Problem Solving, GitHub, VS Code
+    - generic [ref=e95]:
+      - text: WORK / IN MOTION
+      - generic [ref=e96]:
+        - generic [ref=e97]: 02 / 06
+        - paragraph [ref=e98]: THINGS I'VE BUILT
+        - heading [level=2] [ref=e99]:
+          - text: Selected
+          - emphasis [ref=e100]: work
+          - text: from the bench.
+      - generic [ref=e101]:
+        - link "01 MOBILE / AI Tiamo AI-Powered Emotional Presence Mobile App Cross-platform Flutter app for long-distance couples. OPEN CASE FILE →" [ref=e102] [cursor=pointer]:
+          - /url: /projects/tiamo
+          - generic [ref=e103]: "01"
+          - generic [ref=e104]: MOBILE / AI
+          - heading "Tiamo" [level=3] [ref=e105]
+          - heading "AI-Powered Emotional Presence Mobile App" [level=4] [ref=e106]
+          - paragraph [ref=e107]: Cross-platform Flutter app for long-distance couples.
+          - generic [ref=e108]: OPEN CASE FILE →
+        - link "02 2nd Prize, Adi Shankara AI Innovation Hackathon PRISM Paper Recognition and Intelligent Scoring Matrix AI-powered handwritten exam assessment platform using multimodal AI and rubric-based evaluation. Features human-in-the-loop grading, evidence-backed scoring, confidence-aware review, learning-gap analysis. OPEN CASE FILE →" [ref=e109] [cursor=pointer]:
+          - /url: /projects/prism
+          - generic [ref=e110]: "02"
+          - generic [ref=e111]: 2nd Prize, Adi Shankara AI Innovation Hackathon
+          - heading "PRISM" [level=3] [ref=e112]
+          - heading "Paper Recognition and Intelligent Scoring Matrix" [level=4] [ref=e113]
+          - paragraph [ref=e114]: AI-powered handwritten exam assessment platform using multimodal AI and rubric-based evaluation. Features human-in-the-loop grading, evidence-backed scoring, confidence-aware review, learning-gap analysis.
+          - generic [ref=e115]: OPEN CASE FILE →
+        - link "03 1st Prize, Riti 11.0 - AI for Safer Workplaces Synth and Steel AI Forklift Safety Solution AI-integrated forklift safety solution combining intelligent monitoring and automated safety measures to improve workplace accident prevention. OPEN CASE FILE →" [ref=e116] [cursor=pointer]:
+          - /url: /projects/synth-and-steel
+          - generic [ref=e117]: "03"
+          - generic [ref=e118]: 1st Prize, Riti 11.0 - AI for Safer Workplaces
+          - heading "Synth and Steel" [level=3] [ref=e119]
+          - heading "AI Forklift Safety Solution" [level=4] [ref=e120]
+          - paragraph [ref=e121]: AI-integrated forklift safety solution combining intelligent monitoring and automated safety measures to improve workplace accident prevention.
+          - generic [ref=e122]: OPEN CASE FILE →
+        - link "04 ABtalks ViCodeathon Veritas AI Evidence-Driven AI Interview Platform AI interview platform that continuously verifies each claimed competency by collecting evidence throughout the interview, using a two-agent architecture (Interview Director + Evidence Engine), unlike traditional fixed-question scoring systems. OPEN CASE FILE →" [ref=e123] [cursor=pointer]:
+          - /url: /projects/veritas-ai
+          - generic [ref=e124]: "04"
+          - generic [ref=e125]: ABtalks ViCodeathon
+          - heading "Veritas AI" [level=3] [ref=e126]
+          - heading "Evidence-Driven AI Interview Platform" [level=4] [ref=e127]
+          - paragraph [ref=e128]: AI interview platform that continuously verifies each claimed competency by collecting evidence throughout the interview, using a two-agent architecture (Interview Director + Evidence Engine), unlike traditional fixed-question scoring systems.
+          - generic [ref=e129]: OPEN CASE FILE →
+      - generic [ref=e130]:
+        - paragraph [ref=e131]: ADDITIONAL PROJECTS / 03
+        - link "05 Food Expiry Tracker HTML, CSS, JavaScript ↗" [ref=e132] [cursor=pointer]:
+          - /url: /projects/food-expiry-tracker
+          - generic [ref=e133]: "05"
+          - strong [ref=e134]: Food Expiry Tracker
+          - generic [ref=e135]: HTML, CSS, JavaScript
+          - generic [ref=e136]: ↗
+        - link "06 Educational Game for Students with Dyslexia and Dyspraxia JavaScript, UI/UX Design ↗" [ref=e137] [cursor=pointer]:
+          - /url: /projects/educational-game
+          - generic [ref=e138]: "06"
+          - strong [ref=e139]: Educational Game for Students with Dyslexia and Dyspraxia
+          - generic [ref=e140]: JavaScript, UI/UX Design
+          - generic [ref=e141]: ↗
+        - link "07 Rental Equipment Platform Web Platform ↗" [ref=e142] [cursor=pointer]:
+          - /url: /projects/rental-equipment-platform
+          - generic [ref=e143]: "07"
+          - strong [ref=e144]: Rental Equipment Platform
+          - generic [ref=e145]: Web Platform
+          - generic [ref=e146]: ↗
+    - region [ref=e147]:
+      - generic [ref=e148]:
+        - paragraph [ref=e149]: ARCHIVE / RECOGNITION
+        - heading [level=2] [ref=e150]:
+          - text: THE WALL
+          - emphasis [ref=e151]: OF WINS
+      - generic [ref=e152]:
+        - article [ref=e153]:
+          - generic [ref=e154]: AWARD 01
+          - paragraph [ref=e155]: 1st Prize - Synth and Steel ideathon, Riti 11.0 (AI for Safer Workplaces)
+          - generic [ref=e156]: ★
+        - article [ref=e157]:
+          - generic [ref=e158]: AWARD 02
+          - paragraph [ref=e159]: 2nd Prize - PRISM, Adi Shankara AI Innovation Hackathon
+          - generic [ref=e160]: ★
+        - article [ref=e161]:
+          - generic [ref=e162]: AWARD 03
+          - paragraph [ref=e163]: 3rd Prize - FreshTrack, TinkerHack 3.0
+          - generic [ref=e164]: ★
+        - article [ref=e165]:
+          - generic [ref=e166]: AWARD 04
+          - paragraph [ref=e167]: Best Project Award - Intruder Alert System
+          - generic [ref=e168]: ★
+    - region [ref=e169]:
+      - generic [ref=e170]:
+        - generic [ref=e171]: 05 / 06
+        - paragraph [ref=e172]: DOCUMENTS FROM THE WORKSHOP
+        - heading [level=2] [ref=e173]:
+          - text: The certification
+          - emphasis [ref=e174]: drawer.
+      - generic [ref=e175]:
+        - article [ref=e176]:
+          - generic [ref=e177]: CERTIFICATE / 01
+          - heading "IBM SkillsBuild – Agentic AI" [level=3] [ref=e178]
+          - paragraph [ref=e179]: Certificate document coming soon
+        - article [ref=e180]:
+          - generic [ref=e181]: CERTIFICATE / 02
+          - heading "Intel – AI Certification" [level=3] [ref=e182]
+          - paragraph [ref=e183]: Certificate document coming soon
+        - article [ref=e184]:
+          - generic [ref=e185]: CERTIFICATE / 03
+          - heading "ICT Academy Kerala – MERN Full Stack" [level=3] [ref=e186]
+          - paragraph [ref=e187]: Certificate document coming soon
+        - article [ref=e188]:
+          - generic [ref=e189]: CERTIFICATE / 04
+          - heading "NASSCOM Digital 101 (Gold)" [level=3] [ref=e190]
+          - paragraph [ref=e191]: Certificate document coming soon
+        - article [ref=e192]:
+          - generic [ref=e193]: CERTIFICATE / 05
+          - heading "MathWorks Course Completion Certificate" [level=3] [ref=e194]
+          - paragraph [ref=e195]: Certificate document coming soon
+        - article [ref=e196]:
+          - generic [ref=e197]: CERTIFICATE / 06
+          - heading "C++ Training Completion Certificate" [level=3] [ref=e198]
+          - paragraph [ref=e199]: Certificate document coming soon
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - text: FIELD NOTES / EXPERIENCE
+        - heading [level=2] [ref=e202]:
+          - text: THINGS I'VE LEARNED
+          - emphasis [ref=e203]: OUTSIDE THE CLASSROOM
+      - generic [ref=e204]:
+        - article [ref=e205]:
+          - generic [ref=e206]: "01"
+          - heading "IBM SkillsBuild - AI Agent Architect Certification Program" [level=3] [ref=e207]
+          - paragraph [ref=e208]: 4 weeks, Jul 2025
+        - article [ref=e209]:
+          - generic [ref=e210]: "02"
+          - heading "Python for Data Science, Sands Lab, Infopark Koratty, Thrissur" [level=3] [ref=e211]
+          - paragraph [ref=e212]: 3 weeks
+        - article [ref=e213]:
+          - generic [ref=e214]: "03"
+          - heading "Data Analytics Intern, Analytics Career Connect" [level=3] [ref=e215]
+          - paragraph [ref=e216]: 1 month - Excel, data cleaning, pivot tables, dashboard creation
+    - generic [ref=e217]:
+      - text: BLUEPRINT / 05
+      - generic [ref=e218]:
+        - generic [ref=e219]: 06 / 06
+        - paragraph [ref=e220]: MY BLUEPRINT
+        - heading [level=2] [ref=e221]:
+          - text: The full story,
+          - emphasis [ref=e222]: on paper.
+      - generic [ref=e223]:
+        - text: DOCUMENT / RESUME
+        - heading "THANUSHREE SURESH" [level=3] [ref=e224]: THANUSHREESURESH
+        - paragraph [ref=e225]: CS Engineering Student (3rd year) | Flutter & AI Developer
+        - generic [ref=e231]:
+          - link "VIEW RESUME ↗" [ref=e232] [cursor=pointer]:
+            - /url: /resume.pdf
+          - link "DOWNLOAD RESUME ↓" [ref=e233] [cursor=pointer]:
+            - /url: /resume.pdf
+    - generic [ref=e234]:
+      - paragraph [ref=e235]: 06 / THE WORKSHOP DOOR
+      - heading [level=2] [ref=e236]:
+        - text: LET'S BUILD
+        - emphasis [ref=e237]: SOMETHING
+        - text: THOUGHTFUL.
+      - generic [ref=e238]:
+        - link "thanushreesuresh2006@gmail.com ↗" [ref=e239] [cursor=pointer]:
+          - /url: mailto:thanushreesuresh2006@gmail.com
+          - text: thanushreesuresh2006@gmail.com
+          - generic [ref=e240]: ↗
+        - paragraph [ref=e241]: Thrissur, Kerala, India
+      - generic [ref=e242]:
+        - generic [ref=e243]: THANUSHREE'S DIGITAL WORKSHOP
+        - generic [ref=e244]: 2026 / KERALA, INDIA
+        - link "BACK TO THE DOOR ↑" [ref=e245] [cursor=pointer]:
+          - /url: "#top"

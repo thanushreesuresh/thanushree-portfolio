@@ -1,0 +1,21 @@
+- generic [active] [ref=f7e1]:
+  - generic "Entering Thanushree's digital workshop":
+    - generic:
+      - strong: THANUSHREE'S
+      - generic: DIGITAL WORKSHOP
+  - region "Enter the digital workshop"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic: PHOTO01
+          - generic: TS
+      - paragraph: CS Engineering Student (3rd year)
+      - text: WORKSHOP ID / 2024-2028
+  - banner [ref=f7e2]:
+    - link "TS DIGITAL WORKSHOP" [ref=f7e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f7e4]: TS
+      - generic [ref=f7e5]: DIGITALWORKSHOP
+    - button "MENU" [ref=f7e6]
+  - alert [ref=f7e7]
